@@ -1,5 +1,4 @@
 {
-  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "newProjectRoot": "",
   "projects": {
@@ -11,9 +10,7 @@
         "build": {
           "builder": "@angular-builders/custom-webpack:browser",
           "options": {
-            "customWebpackConfig": {
-              "path": "extra-webpack.config.js"
-            },
+           
             "aot": true,
             "outputPath": "dist/apps/app1",
             "index": "apps/app1/src/index.html",
